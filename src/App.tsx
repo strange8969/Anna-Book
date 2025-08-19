@@ -28,22 +28,24 @@ function App() {
 
           {/* Main Image */}
           <div className="mb-12 relative">
-            <div className="relative inline-block">
-              <a 
-                href="https://wa.link/annabookofficial"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block cursor-pointer"
-              >
-                <img 
-                  src="/1020X1920 3.png" 
-                  alt="Anna Book Official" 
-                  className="max-w-full h-auto rounded-2xl shadow-2xl mx-auto max-h-[600px] md:max-h-[700px] object-cover transition-all duration-300 hover:scale-105 hover:shadow-3xl"
-                />
-              </a>
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/20 to-transparent"></div>
-            </div>
-          </div>
+  <div className="relative inline-block">
+    <a 
+      href="https://wa.link/annabookofficial"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block cursor-pointer"
+    >
+      <img 
+        src="/1020X1920 3.png" 
+        alt="Anna Book Official" 
+        className="max-w-full h-auto rounded-2xl shadow-2xl mx-auto max-h-[600px] md:max-h-[700px] object-cover transition-all duration-300 hover:scale-105 hover:shadow-3xl"
+      />
+      {/* overlay must not block clicks */}
+      <div className="absolute inset-0 rounded-2xl bg-gradient-to-t from-black/20 to-transparent pointer-events-none"></div>
+    </a>
+  </div>
+</div>
+
 
           {/* Get ID Button */}
           <div className="mb-16">
