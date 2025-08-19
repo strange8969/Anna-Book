@@ -16,6 +16,15 @@ function App() {
         </div>
       </header>
 
+      {/* Hero Section */}
+      <section className="py-20 px-4">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="mb-8">
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
+              Welcome to
+              <span className="text-emerald-600 block">Anna Book Official</span>
+            </h2>
+          </div>
 
           {/* Main Image */}
           <div className="mb-12 relative">
