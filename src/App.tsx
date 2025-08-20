@@ -51,6 +51,16 @@ function App() {
             Be aware of frauds — we only deal on <strong>WhatsApp</strong>.  
             <u>No Real Money Involvement.</u>
           </div>
+
+          {/* About ANNA BOOK OFFICIAL */}
+          <div className="max-w-2xl mx-auto mt-8 bg-blue-50 border border-blue-200 text-blue-800 px-6 py-4 rounded-xl shadow-sm text-sm leading-relaxed">
+            <strong>About ANNA BOOK OFFICIAL:</strong><br />
+            Anna Book Official is a responsible fantasy sport promoter.<br /><br />
+            We deal in all kinds of sports like online cricket id and several types of gaming sports IDs,<br />
+            Play games with our sports ids.<br /><br />
+            We helped 80k+ players find the best online games to enjoy.<br /><br />
+            You can Register too!
+          </div>
         </div>
       </section>
 
