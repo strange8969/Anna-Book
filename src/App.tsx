@@ -39,7 +39,7 @@ function App() {
               rel="noopener noreferrer"
               className="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl text-lg"
             >
-              Get Your ID Now
+              Register Now
             </a>
           </div>
 
