@@ -10,7 +10,7 @@ function App() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <BookOpen className="w-8 h-8 text-emerald-600" />
-              <h1 className="text-2xl font-bold text-gray-800">Anna Book Official</h1>
+              {/* Removed: <h1>Anna Book Official</h1> */}
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@ function App() {
           </div>
 
           {/* Get ID Button */}
-          <div className="mb-16">
+          <div className="mb-6">
             <a 
               href="https://wa.link/annabookofficial"
               target="_blank"
@@ -50,6 +50,15 @@ function App() {
             >
               Get Your ID Now
             </a>
+          </div>
+
+          {/* Disclaimer */}
+          <div className="max-w-2xl mx-auto bg-red-50 border border-red-200 text-red-700 px-6 py-4 rounded-xl shadow-sm text-sm leading-relaxed">
+            <strong>DISCLAIMER:</strong> This website is only for <strong>18+ users</strong>.  
+            If you are from <strong>Andhra Pradesh, Telangana, Orissa, Assam, Sikkim, or Nagaland</strong>,  
+            please leave the website immediately.  
+            Be aware of frauds — we only deal on <strong>WhatsApp</strong>.  
+            <u>No Real Money Involvement.</u>
           </div>
         </div>
       </section>
