@@ -65,7 +65,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-12">
+{/*       <footer className="bg-gray-800 text-white py-12">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center">
             <div className="flex items-center justify-center space-x-2 mb-6">
@@ -79,7 +79,7 @@ function App() {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
