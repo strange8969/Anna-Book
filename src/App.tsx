@@ -48,7 +48,7 @@ function App() {
             <strong>DISCLAIMER:</strong> This website is only for <strong>18+ users</strong>.  
             If you are from <strong>Andhra Pradesh, Telangana, Orissa, Assam, Sikkim, or Nagaland</strong>,  
             please leave the website immediately.  
-            Be aware of frauds — we only deal on <strong>WhatsApp</strong>.  
+            Be aware of frauds - we only deal on <strong>WhatsApp</strong>.  
             <u>No Real Money Involvement.</u>
           </div>
 
